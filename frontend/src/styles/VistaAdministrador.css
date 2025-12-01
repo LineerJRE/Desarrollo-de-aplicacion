@@ -1,0 +1,105 @@
+/* Fondo oscuro del login */
+.admin-login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+  
+  /* Caja blanca del formulario */
+  .admin-login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    min-width: 300px;
+  }
+  
+  /* Título del formulario */
+  .admin-login-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Mensaje de error */
+  .admin-login-box p {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Campos de entrada */
+  .admin-login-box input {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  /* Botón de acción */
+  .admin-login-box button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-login-box button.registrar {
+    background-color: #007bff;
+  }
+  
+  .admin-login-box button.login {
+    background-color: green;
+  }
+  
+  /* Estilo para los botones de panel */
+  .admin-panel-container {
+    padding: 20px;
+  }
+  
+  .admin-panel-container button {
+    margin-right: 10px;
+  }
+  
+  /* Estilos del modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 400px;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }

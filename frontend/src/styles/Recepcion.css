@@ -1,0 +1,157 @@
+.recepcion-login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+
+.recepcion-container {
+    display:flex;
+    height: 92vh;
+    margin-top: 74px;
+    
+  }
+  
+  /* Panel contenedor */
+  .panel {
+    width: 100vh;
+    border: 2px solid #ccd7fc;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: rgb(230, 240, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+  }
+
+  .area {
+    overflow-y: auto;
+    padding-right: 8px;
+  }
+
+  /* Título del panel */
+  .panel h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: rgb(40, 70, 115); /* Azul elegante */
+    border-bottom: 1px solid rgb(200, 220, 240);
+  }
+
+  /* Lista */
+  .panel ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  /* Ítems de lista */
+  .li-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+
+  .li-item:hover {
+    background-color: rgb(225, 240, 255); /* Hover suave */
+  }
+
+  .li-item p {
+    margin: 0;
+    color: rgb(28, 53, 85);
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  .li-item label {
+    margin: 10px;
+    color: rgb(28, 53, 85);
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .li-item input[type="checkbox" i] {
+      transform: scale(2);
+      margin-right: 8px;
+  }
+
+  /*Panel central*/
+  .panel-central{
+    width: 100vh;
+    border: 2px solid #ccd7fc;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: rgb(230, 240, 255);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .panel-central h1{
+    font-size: 2.5rem;
+    color: rgb(28, 53, 85);
+    margin-bottom: 40px;
+  }
+
+  .panel-central h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: rgb(28, 53, 85);
+  }
+
+  .panel-central h3{
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+    color: rgb(28, 53, 85);
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .examen-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  
+  .examen-checkbox input {
+    margin-right: 8px;
+  }
+  
+  /* Modal */
+  .modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }

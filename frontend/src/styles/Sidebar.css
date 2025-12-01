@@ -1,0 +1,28 @@
+.sidebar {
+  width: 220px;
+  background-color: rgb(210, 225, 245);
+  color: rgb(28, 53, 85);
+  height: 100vh;
+  position: fixed;
+  top: 74px;
+  left: 0;
+  padding-top: 20px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar li:hover,
+.sidebar li.active {
+  background-color: #1abc9c;
+}

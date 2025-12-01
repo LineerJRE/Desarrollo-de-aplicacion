@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Azul pastel claro */
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Contenedor centrado */
+  .registro-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px 30px 30px 30px; /* Iguales en todos los lados */
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  /* Título */
+  .titulo {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* 🔹 Esto asegura que padding no sobrepase el ancho */
+  }
+  
+  /* Botón principal */
+  .btn {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error */
+  .error {
+    background-color: #ffe5e5;
+    color: #c0392b;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  /* Resultado (turno) */
+  .resultado span {
+    color: #2c3e50;
+    font-weight: bold;
+  }

@@ -1,0 +1,19 @@
+.nbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 74px;
+  width: 100%;
+  background-color: rgb(33, 76, 135);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nbar-title {
+  font-size: 40px;
+  font-weight: bold;
+}

@@ -1,0 +1,82 @@
+.usuarios-dashboard {
+  margin-top: 74px;
+  margin-left: 220px;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  background-color: rgb(230, 240, 255);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  height: 87vh;
+}
+
+.usuarios-dashboard h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: rgb(28, 53, 85);
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.boton-crear {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 123, 255);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-crear:hover {
+  background-color: rgb(0, 105, 217);
+}
+
+.usuarios-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.usuarios-dashboard thead {
+  background-color: rgb(33, 76, 135);
+  color: white;
+}
+
+.usuarios-dashboard thead th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.usuarios-dashboard tbody td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.usuarios-dashboard tbody tr:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.2s;
+}
+
+.usuarios-dashboard td:last-child {
+  text-align: center;
+}
+
+.usuarios-dashboard tr:nth-child(even) {
+  background-color: rgb(245, 250, 255);
+}
+
+.boton-accion {
+  background-color: rgb(0 123 255 / 75%);
+}
